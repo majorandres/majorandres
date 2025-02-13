@@ -32,7 +32,7 @@ I am a Computer Science student at UIC.
 
 # Socials 📱
 <p align = "left">
-<a href = "https://discordapp.com/users/major__92" traget = "_blank" rel = "noopener"> <img id = "discord" src = "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" alt = "discord image ">
+<a href = "https://discordapp.com/users/major__92" traget = "_blank" rel = "noopener"> <img id = "discord" src = "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" alt = "discord image " width = "100">
 </a>
 </p>
 
