@@ -36,6 +36,8 @@ I am a Computer Science student at UIC.
 </a>
 <a href = "https://www.linkedin.com/in/andres-popoca-326619273/" traget = "_blank" rel = "noopener"> <img id = "discord" src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2h0d3hhazBmYXF2c2EwamZhdWhiaDducHo5cXNic2FqaHh1czZjMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HQTYdpx1yhxWpugAi2/giphy.gif" alt = "linkedln image " width = "100">
 </a>
+<a href = "https://www.instagram.com/andres_major_/" traget = "_blank" rel = "noopener"> <img id = "instagram" src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXVwZ3dxdmx4ZnUxajdqNnhlZTltc2ZnanZybzJ4cDFuYTJobTFmOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HGGmRQEcqrFb4KA9T9/giphy.gif" alt = "instagram image " width = "100">
+</a>
 </p>
 
 
