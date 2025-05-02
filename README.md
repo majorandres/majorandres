@@ -11,7 +11,7 @@
 
 # ![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmR5MnJ1dWFtMmU2Njg0d2w3Z2NxMnc1Zzkyc2twNmZxczM1MmRlMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/O9nWm2uAHYz6M/giphy.gif) 
 # My name is Andres Popoca. 
-* 
+
 
 I am a Junior Computer Science student at UIC.
 
