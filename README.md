@@ -34,6 +34,8 @@ I am a Computer Science student at UIC.
 <p align = "left">
 <a href = "https://discordapp.com/users/major__92" traget = "_blank" rel = "noopener"> <img id = "discord" src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHNwNWY5eTk0cXkxcWJ3N3drd2FpaXVyOW11anh0NWthY2F4bjM3bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/kmSvtA67vIGcAnyoou/giphy.gif" alt = "discord image " width = "100">
 </a>
+<a href = "https://www.linkedin.com/in/andres-popoca-326619273/" traget = "_blank" rel = "noopener"> <img id = "discord" src = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2h0d3hhazBmYXF2c2EwamZhdWhiaDducHo5cXNic2FqaHh1czZjMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HQTYdpx1yhxWpugAi2/giphy.gif" alt = "linkedln image " width = "100">
+</a>
 </p>
 
 
