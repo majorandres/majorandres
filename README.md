@@ -9,10 +9,10 @@
 
 </p>
 
-# Hi ![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmR5MnJ1dWFtMmU2Njg0d2w3Z2NxMnc1Zzkyc2twNmZxczM1MmRlMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/O9nWm2uAHYz6M/giphy.gif) 
+# ![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmR5MnJ1dWFtMmU2Njg0d2w3Z2NxMnc1Zzkyc2twNmZxczM1MmRlMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/O9nWm2uAHYz6M/giphy.gif) 
 # My name is Andres 
 
-I am a Computer Science student at UIC.
+I am a Junior Computer Science student at UIC.
 
 * 🗣️ Open to collaborating on projects.
 * 💻 I enjoy learning creative ways to code.
