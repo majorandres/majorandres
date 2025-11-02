@@ -48,6 +48,5 @@ I’m currently working on <a href = "https://github.com/majorandres/Quantify"> 
 
 
 # 📊 GitHub Stats :
-![](https://github-readme-stats.vercel.app/api?username=majorandres&theme=vue-dark&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=majorandres&theme=vue-dark&hide_border=true)<br/>
+[![Andres's GitHub stats](https://github-readme-stats.vercel.app/api?username=majorandres)](https://github.com/anuraghazra/github-readme-stats)![](https://github-readme-streak-stats.herokuapp.com/?user=majorandres&theme=vue-dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=majorandres&theme=vue-dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
