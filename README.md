@@ -17,7 +17,7 @@ I am a Junior Computer Science student at UIC.
 
 I’ve always enjoyed learning new things each day, especially the art of coding. When I was younger, I was always fascinated by how video games worked and how many technological appliances worked that impacted my way of learning. Many times, I wondered how many amazing people created many applications that helped people around the world. For example, the Ventra App provided key information for me when the bus was going to arrive at my bus stop. But as of now, I’ve continued to explore the coding concepts as I continue my studies at the  University of Illinois Chicago.
 
-I’m currently working on <a href = "https://github.com/majorandres/Quantify"> Quantify</a>. 
+I’m currently working on . 
 
 * 🗣️ Open to collaborating on projects.
 * 💻 I enjoy learning creative ways to code.
