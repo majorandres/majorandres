@@ -1,64 +1,111 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="250" viewBox="0 0 800 250" role="img" aria-labelledby="title desc">
-  <title id="title">Andres Popoca's GitHub streak statistics</title>
-  <desc id="desc">728 total contributions, a current streak of 2 days, and a longest streak of 8 days.</desc>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+                style='isolation: isolate' viewBox='0 0 800 250' width='800px' height='250px' direction='ltr'>
+        <style>
+            @keyframes currstreak {
+                0% { font-size: 3px; opacity: 0.2; }
+                80% { font-size: 34px; opacity: 1; }
+                100% { font-size: 28px; opacity: 1; }
+            }
+            @keyframes fadein {
+                0% { opacity: 0; }
+                100% { opacity: 1; }
+            }
+        </style>
+        <defs>
+            <clipPath id='outer_rectangle'>
+                <rect width='800' height='250' rx='14'/>
+            </clipPath>
+            <mask id='mask_out_ring_behind_fire'>
+                <rect width='800' height='250' fill='white'/>
+                <ellipse id='mask-ellipse' cx='400' cy='32' rx='13' ry='18' fill='black'/>
+            </mask>
+            
+        </defs>
+        <g clip-path='url(#outer_rectangle)'>
+            <g style='isolation: isolate'>
+                <rect stroke='#667eea' fill='#0d1117' rx='14' x='0.5' y='0.5' width='799' height='249'/>
+            </g>
+            <g style='isolation: isolate'>
+                <line x1='266.66666666667' y1='41.75' x2='266.66666666667' y2='197.5' vector-effect='non-scaling-stroke' stroke-width='1' stroke='#667eea' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/>
+                <line x1='533.33333333333' y1='41.75' x2='533.33333333333' y2='197.5' vector-effect='non-scaling-stroke' stroke-width='1' stroke='#667eea' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/>
+            </g>
+            <g style='isolation: isolate'>
+                <!-- Total Contributions big number -->
+                <g transform='translate(133.33333333333, 75.5)'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#667eea' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.6s'>
+                        729
+                    </text>
+                </g>
 
-  <defs>
-    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#667EEA" />
-      <stop offset="1" stop-color="#764BA2" />
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#667EEA" />
-      <stop offset="1" stop-color="#764BA2" />
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-  </defs>
+                <!-- Total Contributions label -->
+                <g transform='translate(133.33333333333, 111.5)'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#8d9bff' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.7s'>
+                        Total Contributions
+                    </text>
+                </g>
 
-  <rect x="2" y="2" width="796" height="246" rx="14" fill="#0D1117" stroke="url(#frame)" stroke-width="4" />
-  <rect x="14" y="14" width="772" height="222" rx="10" fill="#0D1117" />
+                <!-- Total Contributions range -->
+                <g transform='translate(133.33333333333, 141.5)'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#f1f5f9' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.8s'>
+                        Nov 8, 2023 - Present
+                    </text>
+                </g>
+            </g>
+            <g style='isolation: isolate'>
+                <!-- Current Streak label -->
+                <g transform='translate(400, 135.5)'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#8d9bff' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>
+                        Current Streak
+                    </text>
+                </g>
 
-  <g stroke="#667EEA" stroke-width="1.5" opacity="0.45">
-    <line x1="268" y1="42" x2="268" y2="208" />
-    <line x1="532" y1="42" x2="532" y2="208" />
-  </g>
+                <!-- Current Streak range -->
+                <g transform='translate(400, 172.5)'>
+                    <text x='0' y='21' stroke-width='0' text-anchor='middle' fill='#f1f5f9' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>
+                        Aug 13 - Aug 15
+                    </text>
+                </g>
 
-  <g font-family="Segoe UI, Ubuntu, sans-serif" text-anchor="middle">
-    <g fill="#667EEA" font-weight="700">
-      <text x="140" y="104" font-size="38">728</text>
-      <text x="400" y="112" font-size="38">2</text>
-      <text x="660" y="104" font-size="38">8</text>
-    </g>
+                <!-- Ring around number -->
+                <g mask='url(#mask_out_ring_behind_fire)'>
+                    <circle cx='400' cy='98.5' r='40' fill='none' stroke='#667eea' stroke-width='5' style='opacity: 0; animation: fadein 0.5s linear forwards 0.4s'></circle>
+                </g>
+                <!-- Fire icon -->
+                <g transform='translate(400, 47)' stroke-opacity='0' style='opacity: 0; animation: fadein 0.5s linear forwards 0.6s'>
+                    <path d='M -12 -0.5 L 15 -0.5 L 15 23.5 L -12 23.5 L -12 -0.5 Z' fill='none'/>
+                    <path d='M 1.5 0.67 C 1.5 0.67 2.24 3.32 2.24 5.47 C 2.24 7.53 0.89 9.2 -1.17 9.2 C -3.23 9.2 -4.79 7.53 -4.79 5.47 L -4.76 5.11 C -6.78 7.51 -8 10.62 -8 13.99 C -8 18.41 -4.42 22 0 22 C 4.42 22 8 18.41 8 13.99 C 8 8.6 5.41 3.79 1.5 0.67 Z M -0.29 19 C -2.07 19 -3.51 17.6 -3.51 15.86 C -3.51 14.24 -2.46 13.1 -0.7 12.74 C 1.07 12.38 2.9 11.53 3.92 10.16 C 4.31 11.45 4.51 12.81 4.51 14.2 C 4.51 16.85 2.36 19 -0.29 19 Z' fill='#764ba2' stroke-opacity='0'/>
+                </g>
 
-    <g fill="#8D9BFF" font-size="18">
-      <text x="140" y="151">Total Contributions</text>
-      <text x="400" y="178" font-weight="700">Current Streak</text>
-      <text x="660" y="151">Longest Streak</text>
-    </g>
+                <!-- Current Streak big number -->
+                <g transform='translate(400, 75.5)'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#667eea' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='animation: currstreak 0.6s linear forwards'>
+                        3
+                    </text>
+                </g>
 
-    <g fill="#F1F5F9" font-size="14">
-      <text x="140" y="193">Nov 7, 2023 - Present</text>
-      <text x="400" y="214">Aug 13 - Aug 14</text>
-      <text x="660" y="193">Nov 18, 2025 - Nov 25, 2025</text>
-    </g>
-  </g>
+            </g>
+            <g style='isolation: isolate'>
+                <!-- Longest Streak big number -->
+                <g transform='translate(666.66666666667, 75.5)'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#667eea' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.2s'>
+                        8
+                    </text>
+                </g>
 
-  <circle cx="400" cy="92" r="58" fill="none" stroke="#18232E" stroke-width="9" />
-  <circle cx="400" cy="92" r="58" fill="none" stroke="url(#accent)" stroke-width="9" stroke-linecap="round" stroke-dasharray="365" filter="url(#glow)" transform="rotate(-90 400 92)">
-    <animate attributeName="stroke-dashoffset" values="365;0" dur="1.4s" fill="freeze" />
-  </circle>
+                <!-- Longest Streak label -->
+                <g transform='translate(666.66666666667, 111.5)'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#8d9bff' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.3s'>
+                        Longest Streak
+                    </text>
+                </g>
 
-  <path d="M400 27c-11 14-5 22-12 29-8 8-5 23 12 23s21-15 12-24c-5-5-5-11-2-18-7 6-10 2-10-10zm1 21c6 7 6 13-1 18-7-3-8-10 1-18z" fill="#764BA2" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.7;1;0.7" dur="1.5s" repeatCount="indefinite" />
-  </path>
-
-  <g fill="#667EEA">
-    <circle cx="32" cy="28" r="3"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.2s" repeatCount="indefinite" /></circle>
-    <circle cx="768" cy="222" r="3"><animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite" /></circle>
-  </g>
-</svg>
+                <!-- Longest Streak range -->
+                <g transform='translate(666.66666666667, 141.5)'>
+                    <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#f1f5f9' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.4s'>
+                        Nov 18, 2025 - Nov 25, 2025
+                    </text>
+                </g>
+            </g>
+            
+        </g>
+    </svg>
