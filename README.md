@@ -120,6 +120,3 @@ Step into **The Gateway**, my interactive 3D portfolio museum. Explore eight dis
   </a>
 </div>
 
-<div align="center">
-  <img src="./assets/space-footer.svg" width="100%" alt="Transmission complete — thanks for visiting" />
-</div>
